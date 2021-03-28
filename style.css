@@ -209,4 +209,25 @@ body {
         align-items: center;
         justify-content: space-around;
     }
+
+    .top > p {
+        font-size: 15px;
+    }
+
+    .middle__content > .middle-content__footer {
+        height: 17%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .middle-content__footer > input, 
+    .middle-content__footer > button {
+        height: 80%;
+    }
+
+    .box > .bottom > .first,
+    .box > .bottom > .second {
+        height: 80%;
+        font-size: 15px;
+    }
 }
